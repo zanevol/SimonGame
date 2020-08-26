@@ -8,7 +8,7 @@ Vue.config.productionTip = false
 export const eventEmitter = new Vue()
 
 new Vue({
-  router,
-  store,
-  render: h => h(App)
+	router,
+	store,
+	render: h => h(App)
 }).$mount('#app')
